@@ -41,17 +41,18 @@
         <a onclick="accordeon('grille')" class="w3-bar-item w3-button w3-blue">Grille</a>
         <a target="_blank" href="https://cegepmontpetit.omnivox.ca" class="w3-bar-item w3-button w3-orange">Omnivox</a>
         <a href="PC_2023H_420-964-EM.pdf" target="_blank" class="w3-bar-item w3-button w3-dark-grey">Plan de cours</a>
-        <div class="w3-dropdown-hover">
+        <!-- <div class="w3-dropdown-hover">
             <button class="w3-button w3-green">Aide</button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
                 <a target="_blank" href="https://mareussite.cegepmontpetit.ca/cegep/mes-ressources/soutien-aux-apprentissages/centre-de-services-adaptes/" class="w3-bar-item w3-button">Centre de services adaptés (CSA)</a>
                 <a target="_blank" href="https://mareussite.cegepmontpetit.ca/cegep/mes-ressources/soutien-aux-apprentissages/tutorat-par-les-pairs/" class="w3-bar-item w3-button">Tutorat par les pairs</a>
                 <a target="_blank" href="https://hub.dectim.ca/faucon/" class="w3-bar-item w3-button">Faucon/Paire</a>
             </div>
-        </div>
+        </div> -->
+        <a target="_blank" href="https://hub.dectim.ca/faucon/" class="w3-bar-item w3-button w3-green">Faucon</a>
         <a target="_blank" href="https://dectim.ca" class="w3-bar-item w3-button w3-dark-grey">TIM</a>
         <a target="_blank" href="https://fr-ca.wordpress.org/download/#download-install" class="w3-bar-item w3-button w3-blue">WordPress</a>
-        <a target="_blank" href="https://dectim.net/cpanel" class="w3-bar-item w3-button w3-orange">cPanel</a>
+        <a target="_blank" href="https://dectim.ca/cpanel" class="w3-bar-item w3-button w3-orange">cPanel</a>
         <!-- <div class="w3-dropdown-hover">
             <button class="w3-button w3-blue">WP functions</button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -93,7 +94,7 @@
 
 <div class="w3-container">
 
-    <button onclick="accordeon('sem1')" class="w3-button w3-block w3-left-align w3-indigo ">Semaine 1 - Introduction aux CMS, retour sur Conception Web</button>
+    <!-- <button onclick="accordeon('sem1')" class="w3-button w3-block w3-left-align w3-indigo ">Semaine 1 - Introduction aux CMS, retour sur Conception Web</button>
     <div id="sem1" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
@@ -112,12 +113,12 @@
                 <a class="w3-button w3-round w3-indigo" href="semaine_1/Nouveau_serveur_dectim.pdf" target="_blank">Nouveau serveur dectim</a>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <button onclick="accordeon('sem2')" class="w3-button w3-block w3-left-align w3-blue w3-text-black">
-    	Semaine 2 - <b>Intro à WordPress - <i>part I</i></b> - Installation, tour de l'interface, éditeur de Gutenberg, premier blog
+    <button onclick="accordeon('sem1')" class="w3-button w3-block w3-left-align w3-indigo">
+    	Semaine 1 - <b>Intro à WordPress - <i>part I</i></b> - Installation, tour de l'interface, extensions, utilisateurs, éditeur de Gutenberg, premier blog
     </button>
-    <div id="sem2" class="w3-container w3-hide">
+    <div id="sem1" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
                 <p><a class="w3-button w3-round w3-blue" href="semaine_2/wp_semaine2_theorie.pdf" target="_blank">Théorie</a></p>
@@ -128,7 +129,7 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem3')" class="w3-button w3-block w3-left-align w3-blue w3-text-black">
+    <!-- <button onclick="accordeon('sem3')" class="w3-button w3-block w3-left-align w3-blue w3-text-black">
     	Semaine 3 - <b>Intro à WordPress - <i>part II</i></b> - Réglages, extensions, utilisateurs, exportation
     </button>
     <div id="sem3" class="w3-container w3-hide">
@@ -140,10 +141,10 @@
                 <a class="w3-button w3-round w3-blue" href="semaine_3/wp_semaine3_exercices.pdf" target="_blank">Exercices</a>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <button onclick="accordeon('sem4')" class="w3-button w3-block w3-left-align w3-blue w3-text-black">Semaine 4 - <b>Intro à WordPress - <i>part III</i></b> - Thèmes, menus, formulaires, sauvegarde</button>
-    <div id="sem4" class="w3-container w3-hide">
+    <button onclick="accordeon('sem2')" class="w3-button w3-block w3-left-align w3-indigo">Semaine 2 - <b>Intro à WordPress - <i>part II</i></b> - Réglages, thèmes, menus, formulaires, exportation, sauvegarde</button>
+    <div id="sem2" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
                 <p><a class="w3-button w3-round w3-blue" href="semaine_4/wp_semaine4_theorie.pdf" target="_blank">Théorie</a></p>
@@ -157,8 +158,8 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem5')" class="w3-button w3-block w3-left-align w3-light-blue">Semaine 5 - <b>Thème - <i>part I</i></b> - Structure d'un thème</button>
-    <div id="sem5" class="w3-container w3-hide">
+    <button onclick="accordeon('sem3')" class="w3-button w3-block w3-left-align w3-blue w3-text-black">Semaine 3 - <b>Thème - <i>part I</i></b> - Structure d'un thème</button>
+    <div id="sem3" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
                 <p><a class="w3-button w3-round w3-blue" href="semaine_5/wp_semaine5_theorie.pdf" target="_blank">Théorie</a></p>
@@ -172,8 +173,8 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem6')" class="w3-button w3-block w3-left-align w3-light-blue">Semaine 6 - <b>Thème - <i>part II</i></b> - Menus, functions.php</button>
-    <div id="sem6" class="w3-container w3-hide">
+    <button onclick="accordeon('sem4')" class="w3-button w3-block w3-left-align w3-blue w3-text-black">Semaine 4 - <b>Thème - <i>part II</i></b> - Menus, functions.php</button>
+    <div id="sem4" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
                 <p><a class="w3-button w3-round w3-blue" href="semaine_6/wp_semaine6_theorie.pdf" target="_blank">Théorie</a></p>
@@ -187,8 +188,8 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem7')" class="w3-button w3-block w3-left-align w3-light-blue">Semaine 7 - <b>Thème - <i>part III</i></b> - Hyérarchie des gabarits</button>
-    <div id="sem7" class="w3-container w3-hide">
+    <button onclick="accordeon('sem5')" class="w3-button w3-block w3-left-align w3-blue w3-text-black">Semaine 5 - <b>Thème - <i>part III</i></b> - Hyérarchie des gabarits</button>
+    <div id="sem5" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
                 <p><a class="w3-button w3-round w3-blue" href="semaine_7/wp_semaine7_theorie.pdf" target="_blank">Théorie</a></p>
@@ -202,9 +203,13 @@
         </div>
     </div>
 
+    <button onclick="accordeon('sem6')" class="w3-button w3-block w3-left-align w3-light-blue">Semaine 6 - <b>Examen I</b> - 15%</button>
+
+    <button onclick="accordeon('sem7')" class="w3-button w3-block w3-left-align w3-light-blue">Semaine 7 - <i><b>CPT</b> - Custom Post Type</i></button>
+
     <button class="w3-button w3-block w3-center w3-white w3-hover-white w3-wide">SEMAINE DE LECTURE</button>
 
-    <button onclick="accordeon('sem8')" class="w3-button w3-block w3-left-align w3-lime">Semaine 8 - <i><b>CPT</b> - Custom Post Type</i></button>
+    <!-- <button onclick="accordeon('sem8')" class="w3-button w3-block w3-left-align w3-lime">Semaine 8 - <i><b>CPT</b> - Custom Post Type</i></button>
     <div id="sem8" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
@@ -234,10 +239,10 @@
                 <p><iframe src="https://youtube.com/embed/08HSG7_W9SI" allowfullscreen></iframe></p>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <button onclick="accordeon('sem9')" class="w3-button w3-block w3-left-align w3-lime">Semaine 9 - <i><b>ACF - part I</b> - Advanced Custom Field</i></button>
-    <div id="sem9" class="w3-container w3-hide">
+    <button onclick="accordeon('sem8')" class="w3-button w3-block w3-left-align w3-lime">Semaine 8 - <i><b>ACF - part I</b> - Advanced Custom Field</i></button>
+    <div id="sem8" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
                 <p><a class="w3-button w3-round w3-blue" href="semaine_9/wp_semaine9_theorie.pdf" target="_blank">Théorie</a></p>
@@ -275,8 +280,8 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem10')" class="w3-button w3-block w3-left-align w3-lime">Semaine 10 - <i><b>ACF - part II</b></i></button>
-    <div id="sem10" class="w3-container w3-hide">
+    <button onclick="accordeon('sem9')" class="w3-button w3-block w3-left-align w3-lime">Semaine 9 - <i><b>ACF - part II</b></i></button>
+    <div id="sem9" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
                 <p><a class="w3-button w3-round w3-blue" href="semaine_10/wp_semaine10_theorie.pdf" target="_blank">Théorie</a></p>
@@ -324,7 +329,7 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem11')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 11 - <b>TRAVAIL PRATIQUE</b> (1re remise) - <b>5%</b></button>
+    <button onclick="accordeon('sem11')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 11 - <b>TRAVAIL PRATIQUE I</b> - Présentation TP1, travail TP1</button>
     <div id="sem11" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
@@ -348,7 +353,9 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem12')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 12 - <b>TRAVAIL PRATIQUE</b> (2e remise) - <b>15%</b></button>
+    <button onclick="accordeon('sem10')" class="w3-button w3-block w3-left-align w3-lime">Semaine 10 - <b>Examen II</b> - 15%</button>
+
+    <button onclick="accordeon('sem12')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 12 - <b>TRAVAUX PRATIQUES I et II</b> - Remise TP1 (15%), présentation TP2, travail TP2</button>
     <div id="sem12" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
@@ -357,7 +364,7 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem13')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 13 - <b>TRAVAIL PRATIQUE</b> (3e remise) - <b>10%</b></button>
+    <button onclick="accordeon('sem13')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 13 - <b>TRAVAIL PRATIQUE II</b> - Travail TP2</button>
     <div id="sem13" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
@@ -366,7 +373,7 @@
         </div>
     </div>
 
-    <button onclick="accordeon('sem14')" class="w3-button w3-block w3-left-align w3-green w3-text-black">Semaine 14 - <b>EXAMEN - 20%</b></button>
+    <button onclick="accordeon('sem14')" class="w3-button w3-block w3-left-align w3-light-green">Semaine 14 - <b>TRAVAIL PRATIQUE II</b> - Travail TP2, remise TP2 (25%)</button>
     <div id="sem14" class="w3-container w3-hide">
         <div class="w3-panel w3-round w3-border">
             <div class="w3-container w3-cell w3-cell-middle">
