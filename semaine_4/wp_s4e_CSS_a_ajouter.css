@@ -1,0 +1,110 @@
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: initial;
+  z-index: 10;
+  position: relative;
+}
+
+#menu-menu-principal {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: initial;
+}
+
+#menu-menu-principal * {
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+#menu-menu-principal .sub-menu {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: -999em;
+  width: 130%;
+  transform: translate(-50%, 0);
+}
+
+#menu-menu-principal > .menu-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+}
+
+#menu-menu-principal > .menu-item:hover > .sub-menu {
+  left: 50%;
+  top: 50px;
+}
+
+#menu-menu-principal .sub-menu .menu-item {
+  display: block;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+  background: black;
+  text-align: left;
+}
+#menu-menu-principal .sub-menu .menu-item a {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
+.menu-item-has-children a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-item-has-children > a::after {
+  content: "";
+  margin-left: 5px;
+  border: 4px solid transparent;
+  border-top-color: currentColor;
+}
+
+.current-menu-parent > a,
+.current-menu-item > a {
+  color: yellow;
+}
+
+aside .current-menu-item > a {
+  color: #bb00ef;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.35em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  /* color: #bb00ef; */
+}
+
+footer .menu {
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+footer a {
+  color: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
